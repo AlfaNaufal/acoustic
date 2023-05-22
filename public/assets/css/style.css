@@ -106,6 +106,12 @@
 /* === Import template variables === */
 /*-------------------------------------------------------------------*/
 /* === SCSS Compass Functions === */
+
+.bg1{
+
+}
+
+
 @-moz-keyframes flash {
   0% {
     opacity: 1; }
@@ -16056,7 +16062,7 @@ code {
     border: 0;
     margin-bottom: 0; }
 
-.page-title {
+/* .page-title {
   color: #ffffff;
   font-size: 1.125rem;
   margin-bottom: 0; }
@@ -16069,7 +16075,7 @@ code {
     box-shadow: 0px 3px 8.3px 0.7px rgba(163, 93, 255, 0.35); }
     .page-title .page-title-icon i {
       font-size: .9375rem;
-      line-height: 36px; }
+      line-height: 36px; } */
 
 /* Footer */
 .footer {
@@ -20814,6 +20820,9 @@ div.tagsinput {
   position: relative; }
 
 .main-panel {
+  background-image: url("/public/assets/images/");
+  background-repeat: no-repeat;
+  background-size: cover;
   transition: width 0.25s ease, margin 0.25s ease;
   width: 100%;
   min-height: calc(100vh - 70px);

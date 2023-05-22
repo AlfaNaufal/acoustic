@@ -2,79 +2,30 @@
 @section('title')
 @section('breadcrumbs')
 
-<div class="main-panel">
+<div class="main-panel" >
     <div class="content-wrapper">
       <div class="page-header">
-        <h3 class="page-title"> Hi I'm TheAcoustic </h3>
+        <h1 class="page-title"> Welcome to the <strong> TheAcoustic!! </strong></h1>
       </div>
-      <div class="col-lg-12 grid-margin stretch-card">
-        <div class="card">
-          <div class="card-body">
-            <h4 class="card-title">It's a developer</h4>
-            <p class="card-description"> from 11 software engineer 1
-            </p>
-            <div class="table-responsive">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th> User </th>
-                    <th> Name </th>
-                    <th> Age</th>
-                    <th> Role</th>
-                    <th> Residence </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="py-1">
-                      <img src="../../assets/images/faces-clipart/pic-1.png" alt="image" />
-                    </td>
-                    <td> Fakhri </td>
-                    <td>
-                      17
-                    </td>
-                    <td> Backend </td>
-                    <td> Bandung </td>
-                  </tr>
-                  <tr>
-                    <td class="py-1">
-                      <img src="../../assets/images/faces-clipart/pic-2.png" alt="image" />
-                    </td>
-                    <td> Naufal </td>
-                    <td>
-                      17
-                    </td>
-                    <td> Frontend </td>
-                    <td> Bandung </td>
-                  </tr>
-                  <tr>
-                    <td class="py-1">
-                      <img src="../../assets/images/faces-clipart/pic-3.png" alt="image" />
-                    </td>
-                    <td> Nisrina </td>
-                    <td>
-                      17
-                    </td>
-                    <td> Designer </td>
-                    <td> Bandung</td>
-                  </tr>
-                  <tr>
-                    <td class="py-1">
-                      <img src="../../assets/images/faces-clipart/pic-4.png" alt="image" />
-                    </td>
-                    <td> Restu </td>
-                    <td>
-                      17
-                    </td>
-                    <td>  Frontend </td>
-                    <td> Bandung </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
+
+      <div class="col-sm-12 col-md-12 col-lg-6">
+
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+          <h3>Apa itu THEACOUSTIC?</h3>
+          <p class="fst-italic">
+            THEACOUSTIC is an annual music and arts festival organized by SMKN XX Bandung. Which features several shows such as
+          </p>
+          <ul>
+            <li><i class="bi bi-check-circle"></i> Music Show.</li>
+            <li><i class="bi bi-check-circle"></i> Dance theater.</li>
+          </ul>
+          <p>
+            This show is takes place at the end of every school year. If you're looking for a show of good music, laughter, and fun, THEACOUSTIC is the perfect event for you. So, mark your calendars and don't miss this memorable event.
+          </p>
         </div>
+
       </div>
+
     </div>
     @include('partials.footer')
 </div>
