@@ -46,7 +46,7 @@
                             onsubmit="return confirm('Yakin Hapus Data Tiket Konser Ini ? ')">
                             @method('delete')
                             @csrf
-                            <button type="button"  class="btn btn-inverse-success btn-fw"><a href="{{ url('user_tiket/create')}}" class="btn">Pilih</a></button>
+                            <button type="button"  class="btn btn-inverse-success btn-fw"><a href="{{ url('user_tiket/')}}" class="btn">Bayar</a></button>
 
                         </form> 
                 @endforeach
